@@ -179,13 +179,14 @@
     <!-- <listen_host>::</listen_host> -->
 
 
+    <listen_host>127.0.0.1</listen_host>
     <!-- Same for hosts without support for IPv6: -->
     <!-- <listen_host>0.0.0.0</listen_host> -->
 
     <!-- Default values - try listen localhost on IPv4 and IPv6. -->
     <!--
     <listen_host>::1</listen_host>
-    <listen_host>127.0.0.1</listen_host>
+
     -->
 
     <!-- Don't exit if IPv6 or IPv4 networks are unavailable while trying to listen. -->
@@ -367,7 +368,7 @@
 
     <!-- Path to temporary data for processing hard queries. -->
     <tmp_path>/var/lib/clickhouse/tmp/</tmp_path>
-    
+
     <!-- Disable AuthType plaintext_password and no_password for ACL. -->
     <!-- <allow_plaintext_password>0</allow_plaintext_password> -->
     <!-- <allow_no_password>0</allow_no_password> -->`
